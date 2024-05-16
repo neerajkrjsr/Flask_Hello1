@@ -1,13 +1,13 @@
 Flask
 gunicorn
 playwright
-libicudata.so.66
-libicui18n.so.66
-libicuuc.so.66
-libevent-2.1.so.7
-libjpeg.so.8
-libenchant-2.so.2
-libsecret-1.so.0
-libffi.so.7
-libGLESv2.so.2
+libicudata
+libicui18n
+libicuuc
+libevent
+libjpeg
+libenchant
+libsecret
+libffi
+libGLESv2
 
