@@ -5,8 +5,8 @@ app = Flask(__name__)
 
 @app.route('/')
 def run(playwright: Playwright):
-    firefox = playwright.firefox
-    browser = firefox.launch()
+    chromium = playwright.chromium
+    browser = chromium.launch()
     page = browser.new_page()
     page.goto("https://example.com")
     browser.close()
